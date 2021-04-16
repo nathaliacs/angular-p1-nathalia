@@ -1,0 +1,26 @@
+
+.navbar-collapse{
+  flex-direction: unset;
+}
+
+nav{
+  background-color: #dc3545 !important;
+}
+a{
+  color: #fff !important;
+}
+button{
+  color: #cf3443 !important;
+  border:#cf3443;
+  margin: 0;
+}
+
+img{
+  width: 20px;
+  padding: 0 auto;
+}
+
+#maior, #menor{
+  margin: 0 20px;
+  font-size: 100% !important;
+}

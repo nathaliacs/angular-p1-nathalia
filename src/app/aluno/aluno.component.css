@@ -1,0 +1,50 @@
+img {
+  padding: 0 auto;
+  border-radius: 100%;
+  max-width: 80px;
+  height: auto;
+}
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  max-width: 350px;
+  min-width: 270px;
+  margin: 0 auto;;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.flex-container > div {
+  color: black;
+  margin:  auto;
+  text-align: center;
+  font-size: 100%;
+}
+#follow {
+  /* flex-grow: 7; */
+  align-items: initial;
+  margin-bottom: 0px;
+}
+/* 
+#img {
+  flex-grow: 3;
+} */
+
+#follow > a {
+  width: 90px;
+  margin: 0 auto;
+  font-size: 100%;
+  padding: 3px;
+}
+abbr {
+  text-decoration: none;
+}
+p{
+  margin: 8px;
+}
+main{
+  padding: 15px 10px;
+  margin: 50px;
+}
+

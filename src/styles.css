@@ -1,0 +1,32 @@
+/* Add application styles & imports to this file! */
+body {
+  font-family: TitilliumRegular, Helvetica, Verdana, sans-serif;
+  font-style: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+main {
+  width: 50%;
+  margin: 0 auto;
+  max-width: 500px;
+  margin-top: 20px;
+  padding: 50px 10px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  main {
+    width: 65%;
+  }
+}
+@media (max-width: 658px) {
+  main {
+    width: 80%;
+  }
+}
+@media (max-width: 426px) {
+  main {
+    width: 90%;
+  }
+}

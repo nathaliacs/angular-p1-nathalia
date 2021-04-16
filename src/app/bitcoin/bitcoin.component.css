@@ -1,0 +1,38 @@
+table {
+  padding: 5px;
+  overflow-x: auto;
+  width: 100%;
+  text-align: center;
+  min-width: 200px;
+  margin: 0 auto;
+}
+
+th {
+  background-color: #eee;
+  padding: 5px;
+  border: 5px solid #fff;
+}
+tr {
+  background-color: #fff;
+}
+tr:nth-child(odd) {
+  background-color: #eee;
+}
+td {
+  padding: 5px;
+  border: 5px solid #fff;
+}
+
+input {
+  background-color: #eee;
+  border: 0;
+  padding: 3px;
+  width: 100%;
+  max-width: 500px;
+  min-width: 200px;
+  margin: 5px;
+}
+
+h3{
+  text-align: center;
+}

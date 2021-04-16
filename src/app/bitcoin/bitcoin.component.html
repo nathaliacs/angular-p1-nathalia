@@ -1,0 +1,17 @@
+<main class="container-fluid ">
+  <div>
+    <h3>Cotação do bitcoin</h3>
+
+    <table>
+      <tr>
+        <th>Data/Hora</th>
+        <th>Valor (BRL)</th>
+      </tr>
+      <tr *ngFor="let response of BitcoinService.updateList">
+        <td>{{response.time.updated}}</td>
+        <td>{{response.bpi.BRL.rate}}</td>
+
+      </tr>
+    </table>
+  </div>
+</main>
